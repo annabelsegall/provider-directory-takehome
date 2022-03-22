@@ -17,11 +17,11 @@ export function ProviderStatItem({icon, label, value}) {
             break;
     }
 
-    return <div class='stat-item'>
-        <div class='stat-icon'>{iconComponent}</div>
-        <div class='input-text-1 stacked-item'>
+    return <div className='stat-item'>
+        <div className='stat-icon'>{iconComponent}</div>
+        <div className='input-text-1 stacked-item'>
             {label} 
-            <div class='telus-label-3-dark'>
+            <div className='telus-label-3-dark'>
                 {value}
             </div>
         </div>

@@ -9,7 +9,7 @@ export function ProviderPage() {
  const region = params.region;
 
   return (
-      <div class="provider-page">
+      <div className="provider-page">
         <ProviderListHeader region={region} lang={lang}/>
         <ProviderList region={region} lang={lang}/>
       </div>

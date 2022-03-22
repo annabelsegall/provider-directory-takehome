@@ -7,18 +7,19 @@ import { ProviderImage } from '../provider-image/provider-image';
 
 export function ProviderListItem({provider}) {
 
-    return <div class="list-item">
+    return <div className="list-item">
         <Link to={`/providers/${provider.id}`} key={provider.id}>
-            <div class='profile-image-title'>
+            <div className='profile-image-title'>
                 <ProviderImage  size="small" url={provider.url} />
-                <div class='telus-label-5 profile-header-small'>{provider.name},{provider.title}
+                <div className='telus-label-5 profile-header-small'>{provider.name},{provider.title}
                 </div>
             </div>
-            <div class="bio telus-body-3">{provider.bio}</div>
+            <div className="bio telus-body-3">{provider.bio}</div>
             <ButtonLink 
                 size="small" 
+                noLink
                 url={`/providers/${provider.id}`}
-                key={provider.id} 
+                keyName={provider.id} 
                 text={`${localizedStrings.available}
                 ${localizedStrings[
                     provider.availabilty === 'next-week'

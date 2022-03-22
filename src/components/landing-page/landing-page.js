@@ -21,15 +21,15 @@ export default function LandingPage() {
       updateRegion(e.value);
     };
 
-    return <div class='landing-background'>
-        <div class='landing-settings'>{localizedStrings.selectLanguage}
+    return <div className='landing-background'>
+        <div className='landing-settings'>{localizedStrings.selectLanguage}
             <Dropdown options={languages} onChange={onLangChange} value={defaultLang} />
             <Dropdown options={regions} onChange={onRegionChange} value={defaultRegion} />
-            <div class='get-started'>
+            <div className='get-started'>
                 <ButtonLink 
                     text={localizedStrings.getStarted} 
                     url={`/providers/${lang}/${region}`} 
-                    key="1" 
+                    keyName="1" 
                     isPrimary={true} 
                     size="large"/>
                 </div>

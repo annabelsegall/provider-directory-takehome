@@ -5,13 +5,13 @@ import { ProviderBio } from "../provider-bio/provider-bio";
 import { ProviderStats } from "../provider-stats/provider-stats";
 
 export function ProviderInfo({provider}) {
-    return <div class="provider-info">
-        <div class='telus-sub-heading-1 profile-header'>{provider.name}, {provider.title}</div>
+    return <div className="provider-info">
+        <div className='telus-sub-heading-1 profile-header'>{provider.name}, {provider.title}</div>
         <ProviderBio bio={provider.bio}/>
         <ProviderStats provider={provider}/>
-        <div class='booking-button'>
+        <div className='booking-button'>
             <ButtonLink 
-                key={provider.id}
+                keyName={provider.id}
                 size="large" 
                 isPrimary={true}
                 url={`/book`} 

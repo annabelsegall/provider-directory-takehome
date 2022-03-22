@@ -13,5 +13,5 @@ export function ProviderImage({url, size}) {
         alt={localizedStrings.profileImage}
     />;
 
-    return  <div class={`${size} profile-image`}>{avatar}</div>;
+    return  <div className={`${size} profile-image`}>{avatar}</div>;
 }

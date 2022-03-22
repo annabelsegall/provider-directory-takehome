@@ -14,7 +14,7 @@ export default function ProviderSingle() {
         return  <LoaderIcon/>;
     }
 
-    return <div class="provider-single">        
+    return <div className="provider-single">        
             <ProviderImage size="large" url={provider.avatarUrl}/>
             <ProviderInfo provider={provider}/>
         </div>;
