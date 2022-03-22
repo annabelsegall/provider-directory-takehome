@@ -5,6 +5,10 @@ button.primary {
     text-decoration: none;
 }
 
+button.primary:hover {
+    background-color: var(--tvhc-purple-4);
+}
+
 button.large {
     height: 50px;
     width: 300px;
@@ -36,4 +40,10 @@ button.secondary {
     border: none;
     color: var(--neutral-8);
     text-decoration: none;
+}
+
+button.secondary:hover {
+    background-color:  var(--tvhc-purple-1);
+    border: 1px solid var(--tvhc-purple-4);
+    ;
 }

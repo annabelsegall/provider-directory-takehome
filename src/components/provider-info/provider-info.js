@@ -14,8 +14,8 @@ export function ProviderInfo({provider}) {
                 key={provider.id}
                 size="large" 
                 isPrimary={true}
-                 url={`/book`} 
-                 text={localizedStrings.bookWithUs}>
+                url={`/book`} 
+                text={localizedStrings.bookWithUs}>
             </ButtonLink>
         </div>
     </div>;

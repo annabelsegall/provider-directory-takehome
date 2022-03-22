@@ -8,8 +8,17 @@
     width: 600px;
     height: 167px;
     background-color: var(--neutral-0);
+    border: 2px solid var(--neutral-0);
     margin: 6px auto;
     padding: 20px;
+ }
+
+ .list-item a {
+    text-decoration: none;
+ }
+
+ .list-item:hover {
+    background-color: var(--neutral-1);
  }
 
  .profile-image-title {

@@ -29,7 +29,8 @@ export default function LandingPage() {
                 <ButtonLink 
                     text={localizedStrings.getStarted} 
                     url={`/providers/${lang}/${region}`} 
-                    key="1" isPrimary={true} 
+                    key="1" 
+                    isPrimary={true} 
                     size="large"/>
                 </div>
             <Outlet/>
