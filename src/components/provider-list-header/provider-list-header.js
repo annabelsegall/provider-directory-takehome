@@ -7,14 +7,14 @@ export function ProviderListHeader({region, lang}) {
     let providers = useProviders(region, lang);
 
     if(!providers) {
-      return <div class="provider-list-header">
+      return <div class='provider-list-header'>
         <div class='telus-sub-heading-3'>
           {localizedStrings.browse}
           </div> 
         </div>;
     }
 
-    return <div class="provider-list-header">
+    return <div class='provider-list-header'>
       <div class='telus-sub-heading-3'>{localizedStrings.browse}</div> 
       <div class='input-text-3'> {localizedStrings.formatString(
         localizedStrings.specialistsAvailable,

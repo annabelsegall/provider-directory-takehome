@@ -8,7 +8,6 @@ export function useProviders(region, lang) {
     useEffect (() => {
         fetchProviders(region, lang).then((res) => {
             setProviders( res );
-            console.log("providers fetched")
         });
     });
 
@@ -22,7 +21,6 @@ export function useProvider(user) {
     useEffect (() => {
         fetchProvider(user).then((res) => {
             setProviders( res );
-            console.log(`provider ${user} fetched`)
         });
     }, [user]);
 

@@ -4,7 +4,7 @@ import { localizedStrings } from "../../lang/localize";
 
 export default function LoaderIcon() {
     // color: Primary 5 (see colors.css)
-    return <div class="loading-background">
+    return <div class='loading-background'>
         <Bars
             height="100"
             width="100"

@@ -20,7 +20,7 @@ export function ProviderList({region, lang}) {
     }
 
     const providerList = providers.map((provider) => {
-        return <ProviderListItem provider={provider}/>
+        return <ProviderListItem provider={provider} key={provider.id}/>
     });
 
     return <div class="provider-list">{providerList}<Outlet/></div>;
