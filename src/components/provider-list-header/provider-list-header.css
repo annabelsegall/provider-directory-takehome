@@ -1,0 +1,9 @@
+.provider-list-header {
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--neutral-0);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}

@@ -1,29 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import {fetchProviders, fetchProvider} from "./api";
+import './styles.css';
+import './colors.css';
+import 'react-dropdown/style.css';
+import LandingPage from './components/landing-page/landing-page';
 
 function App() {
-  // Samples of API requests
-  fetchProviders().then(console.log)
-  fetchProvider("1").then(console.log)
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Sofia')
+      </style>
+        <LandingPage/>
+      </div>
   );
 }
 

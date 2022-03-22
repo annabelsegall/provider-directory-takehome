@@ -1,0 +1,19 @@
+.provider-info {
+    left: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    background-color: var(--neutral-0);
+    padding: 30px;
+}
+
+.booking-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.profile-header {
+    padding-bottom: 10px;
+}

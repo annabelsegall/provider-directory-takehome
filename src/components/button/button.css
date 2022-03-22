@@ -1,0 +1,39 @@
+button.primary {
+    background-color: var(--primary-5);
+    border: none;
+    color: var(--neutral-0);
+    text-decoration: none;
+}
+
+button.large {
+    height: 50px;
+    width: 300px;
+    border-radius: 2000px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
+
+button.small {
+    height: 25px;
+    min-width: 100px;
+    border-radius: 200px;
+    margin: 12px 0px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+}
+
+button.secondary {
+    background-color: var(--secondary-2);
+    border: none;
+    color: var(--neutral-8);
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.bio {
+    max-height: calc(19px * 2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+ .list-item {
+    width: 600px;
+    height: 167px;
+    background-color: var(--neutral-0);
+    margin: 6px auto;
+    padding: 20px;
+ }
+
+ .profile-image-title {
+     display: flex;
+     align-items: center;
+     padding-bottom: 10px;
+ }
+
+ .profile-header-small {
+     padding-left: 10px;
+ }

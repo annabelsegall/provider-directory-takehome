@@ -1,0 +1,13 @@
+.loading-background svg {
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    position: absolute;
+    background-color: var(--neutral-2);
+}
+
+.loading-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: var(--neutral-2);
+}

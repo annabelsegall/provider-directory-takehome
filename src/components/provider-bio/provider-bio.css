@@ -1,0 +1,16 @@
+.truncated {
+    max-height: calc(20px * 5);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.read-less {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    padding-top: 10px;
+    color: var(--secondary-5);
+}

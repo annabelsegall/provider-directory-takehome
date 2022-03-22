@@ -1,0 +1,27 @@
+:root {
+    /* neutrals */
+    --neutral-0: #FFFFFF;
+    --neutral-1: #FAFAFA;
+    --neutral-2: #F6F7F7;
+    --neutral-3: #EEEEEE;
+    --neutral-4: #DFE1E6;
+    --neutral-5: #C6C9CF;
+    --neutral-6: #A9AEB7;
+    --neutral-7: #6E7178;
+    --neutral-8: #3F4145;
+    --neutral-9: #1C1E24;
+
+    /* primary */
+    --primary-1: #F6F4F7;
+    --primary-2: #EDEAF0;
+    --primary-3: #DBD4E2;
+    --primary-4: #C9BFD3;
+    --primary-5: #4B286D;
+
+    /*secondary */
+    --secondary-1: #F7F8FE;
+    --secondary-2: #EFF1FE;
+    --secondary-3: #E0E4FC;
+    --secondary-4: #D0D6FB;
+    --secondary-5: #6277F0;
+  }

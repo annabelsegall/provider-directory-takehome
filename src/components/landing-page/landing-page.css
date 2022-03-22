@@ -1,0 +1,25 @@
+.landing-background {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--neutral-2);
+}
+
+.landing-settings {
+    width: 600px;
+    height: 200px;
+    display: block;
+    background-color: var(--neutral-0);
+    margin: 40px auto;
+    padding: 20px 20px 0px 20px;
+}
+
+.get-started {
+    margin: 0px auto;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}

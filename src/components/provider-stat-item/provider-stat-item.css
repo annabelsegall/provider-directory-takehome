@@ -1,0 +1,28 @@
+.stat-icon {
+    display: block;
+}
+
+.stat-icon svg {
+    height: 28px;
+    width: 28px;
+    padding: 10px;
+    stroke: var(--neutral-8) !important;
+    stroke-width: 40px !important;
+    fill: var(--primary-2) !important;
+}
+
+.stat-item {
+    display: flex;
+    padding: 10px;
+}
+
+.stacked-item {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats {
+    padding: 30px 30px 0px 30px;
+}
