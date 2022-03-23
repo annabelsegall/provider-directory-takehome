@@ -15,8 +15,8 @@ export function ProviderListHeader({region, lang}) {
     }
 
     return <div className='provider-list-header'>
-      <div className='telus-sub-heading-3'>{localizedStrings.browse}</div> 
-      <div className='input-text-3'> {localizedStrings.formatString(
+      <div role='alert' className='telus-sub-heading-3'>{localizedStrings.browse}</div> 
+      <div role='alert' className='input-text-3'> {localizedStrings.formatString(
         localizedStrings.specialistsAvailable,
         providers.length === 1 ? localizedStrings.is : localizedStrings.are,
         providers.length ? providers.length : localizedStrings.no,

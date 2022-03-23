@@ -7,8 +7,8 @@ export function ProviderBio({bio}) {
     const [showMore, updateShowMore] = useState(false);
     
     return <div>
-        <div className={`${!showMore ? "truncated" : undefined} telus-body-3`}>{bio}</div>
-        <div className='read-less' onClick={() => updateShowMore(!showMore)}>
+        <div role='info' className={`${!showMore ? "truncated" : undefined} telus-body-3`}>{bio}</div>
+        <div  aria-hidden="true" className='read-less' onClick={() => updateShowMore(!showMore)}>
                 {!showMore ? localizedStrings.showMore : localizedStrings.showLess}
         </div>
     </div>;

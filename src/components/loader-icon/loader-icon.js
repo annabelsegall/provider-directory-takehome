@@ -4,7 +4,7 @@ import { localizedStrings } from "../../lang/localize";
 
 export default function LoaderIcon() {
     // color: Primary 5 (see colors.css)
-    return <div className='loading-background'>
+    return <div className='loading-background' role='alert' aria-label={localizedStrings.loading}>
         <Bars
             height="100"
             width="100"

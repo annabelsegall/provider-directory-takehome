@@ -6,7 +6,7 @@ import { ProviderStats } from "../provider-stats/provider-stats";
 
 export function ProviderInfo({provider}) {
     return <div className="provider-info">
-        <div className='telus-sub-heading-1 profile-header'>{provider.name}, {provider.title}</div>
+        <div tabindex={0} role='info' className='telus-sub-heading-1 profile-header'>{provider.name}, {provider.title}</div>
         <ProviderBio bio={provider.bio}/>
         <ProviderStats provider={provider}/>
         <div className='booking-button'>

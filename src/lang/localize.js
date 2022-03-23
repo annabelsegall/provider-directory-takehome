@@ -5,7 +5,7 @@ export const localizedStrings = new LocalizedStrings({
         loading: "Loading...",
         showMore: "Show More ▼",
         showLess: "Show Less ▲",
-        profileImage: "Profile Image",
+        profileImage: "Provider Profile Image",
         bookWithUs: "Book with us",
         noProviders: "No providers available. Try widening your search.",
         browse: "Browse our Providers",
@@ -23,6 +23,8 @@ export const localizedStrings = new LocalizedStrings({
         tomorrow: "tomorrow",
         nextweek: " next week",
         available: 'Available',
+        moreInfo: "More information",
+        clickToSchedule: "Click to see more info and schedule an appointment",
     },
     fr: {
         loading: "Chargement en cours...",
@@ -46,5 +48,7 @@ export const localizedStrings = new LocalizedStrings({
         tomorrow: "demain",
         nextweek: "la semaine prochaine",
         available: 'Disponible',
+        moreInfo: "Plus d'information",
+        clickToSchedule: "Cliquez pour voir plus d'informations et planifier un rendez-vous",
     }
 });

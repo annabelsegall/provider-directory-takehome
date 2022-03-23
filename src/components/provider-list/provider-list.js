@@ -13,7 +13,7 @@ export function ProviderList({region, lang}) {
     }
     if(!providers.length) {
         return <div className="provider-list">
-            <div className="provider-list-empty">
+            <div className="provider-list-empty" role='alert'>
                 {localizedStrings.noProviders}
             </div>
         </div>;
@@ -23,5 +23,5 @@ export function ProviderList({region, lang}) {
         return <ProviderListItem provider={provider} key={provider.id}/>
     });
 
-    return <div className="provider-list">{providerList}<Outlet/></div>;
+    return <div role="list" className="provider-list">{providerList}<Outlet/></div>;
 }
