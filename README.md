@@ -27,3 +27,5 @@ Localization is managed by the react-localization package.
 
 ### Accessibility
 
+This app has some basic accessibility features such as keyboard navigation for mouseless users, and [ARIA attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes) to make the page navigable with a screenreader (tested with NVDA).
+

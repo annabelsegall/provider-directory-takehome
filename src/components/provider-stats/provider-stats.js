@@ -2,7 +2,7 @@ import { localizedStrings } from "../../lang/localize";
 import { ProviderStatItem } from "../provider-stat-item/provider-stat-item";
 
 export function ProviderStats({provider}) {
-    return <div className='stats' aria-role='info' aria-label={localizedStrings.moreInfo}>
+    return <div className='stats' role='info' aria-label={localizedStrings.moreInfo}>
         <ProviderStatItem 
             icon='map' 
             label={localizedStrings.location} 
