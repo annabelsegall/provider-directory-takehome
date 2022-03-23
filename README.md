@@ -23,7 +23,7 @@ In addition, there is an added landing page. On the landing page, users can sele
 
 The app can run in both English and French, toggled via the landing page. All of the string are localized with the exception of the API-provided content. As a future improvement, the API could be amended to serve the provider profiles in several languages. 
 
-Localization is managed by the react-localization package. 
+Localization is managed by the [react-localization](https://www.npmjs.com/package/react-localization) package. 
 
 ### Accessibility
 
